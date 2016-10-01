@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Real_World_Problem_Dojo"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
+    <Canvas Name="paper">
         
-    </Grid>
+    </Canvas>
 </Window>
