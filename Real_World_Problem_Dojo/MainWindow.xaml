@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Canvas Name="paper">
-        
+        <Button x:Name="button" Content="Get Shape" Canvas.Left="221" Canvas.Top="249" Width="75" Click="button_Click"/>
+
     </Canvas>
 </Window>
