@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingDojo3", "CodingDojo3\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookExercise1+2", "BookExercise1\BookExercise1+2.csproj", "{0CEAEADA-7B5A-4A5C-B4DB-D30C9C788E9C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookExercise3", "BookExercise3\BookExercise3.csproj", "{C0A41881-29C0-430B-A0DC-2E1784D736B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{0CEAEADA-7B5A-4A5C-B4DB-D30C9C788E9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CEAEADA-7B5A-4A5C-B4DB-D30C9C788E9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CEAEADA-7B5A-4A5C-B4DB-D30C9C788E9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0A41881-29C0-430B-A0DC-2E1784D736B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0A41881-29C0-430B-A0DC-2E1784D736B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0A41881-29C0-430B-A0DC-2E1784D736B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0A41881-29C0-430B-A0DC-2E1784D736B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

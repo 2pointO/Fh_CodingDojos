@@ -6,10 +6,14 @@
         xmlns:local="clr-namespace:BookExercise1"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        <TextBox x:Name="inputTestBox" HorizontalAlignment="Left" Height="28" Margin="12,12,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="398" TextChanged="inputTestBox_TextChanged"/>
-        <Button x:Name="calculateButton" Content="Calculate" HorizontalAlignment="Right" Margin="0,12,11,0" VerticalAlignment="Top" Width="75" Height="23" Click="calculateButton_Click"/>
-        <Label x:Name="newtonLabel" Content="0.00 (Using Newton)" HorizontalAlignment="Left" Margin="12,87,0,0" VerticalAlignment="Top" Height="28" Width="479"/>
+    <Grid Margin="0,0,2,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="255*"/>
+            <ColumnDefinition Width="262*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="inputTestBox" HorizontalAlignment="Left" Height="28" Margin="12,12,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="398" TextChanged="inputTestBox_TextChanged" Grid.ColumnSpan="2"/>
+        <Button x:Name="calculateButton" Content="Calculate" HorizontalAlignment="Right" Margin="0,12,11,0" VerticalAlignment="Top" Width="75" Height="23" Click="calculateButton_Click" Grid.Column="1"/>
+        <Label x:Name="newtonLabel" Content="0.00 (Using Newton)" HorizontalAlignment="Left" Margin="12,87,0,0" VerticalAlignment="Top" Height="28" Width="479" Grid.ColumnSpan="2"/>
         <Label x:Name="frameworkLabel" Content="0.00 ( Using .NET Framework" HorizontalAlignment="Left" Margin="12,56,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="12,144,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="textBox_TextChanged"/>
         <Label x:Name="label" Content="0" HorizontalAlignment="Left" Margin="12,186,0,0" VerticalAlignment="Top"/>

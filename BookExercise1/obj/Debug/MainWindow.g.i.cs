@@ -41,7 +41,7 @@ namespace BookExercise1 {
     public partial class MainWindow : System.Windows.Window, System.Windows.Markup.IComponentConnector {
         
         
-        #line 10 "..\..\MainWindow.xaml"
+        #line 14 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBox inputTestBox;
         
@@ -49,7 +49,7 @@ namespace BookExercise1 {
         #line hidden
         
         
-        #line 11 "..\..\MainWindow.xaml"
+        #line 15 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button calculateButton;
         
@@ -57,7 +57,7 @@ namespace BookExercise1 {
         #line hidden
         
         
-        #line 12 "..\..\MainWindow.xaml"
+        #line 16 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Label newtonLabel;
         
@@ -65,7 +65,7 @@ namespace BookExercise1 {
         #line hidden
         
         
-        #line 13 "..\..\MainWindow.xaml"
+        #line 17 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Label frameworkLabel;
         
@@ -73,7 +73,7 @@ namespace BookExercise1 {
         #line hidden
         
         
-        #line 14 "..\..\MainWindow.xaml"
+        #line 18 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBox textBox;
         
@@ -81,7 +81,7 @@ namespace BookExercise1 {
         #line hidden
         
         
-        #line 15 "..\..\MainWindow.xaml"
+        #line 19 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Label label;
         
@@ -89,7 +89,7 @@ namespace BookExercise1 {
         #line hidden
         
         
-        #line 16 "..\..\MainWindow.xaml"
+        #line 20 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button button;
         
@@ -129,7 +129,7 @@ namespace BookExercise1 {
             case 1:
             this.inputTestBox = ((System.Windows.Controls.TextBox)(target));
             
-            #line 10 "..\..\MainWindow.xaml"
+            #line 14 "..\..\MainWindow.xaml"
             this.inputTestBox.TextChanged += new System.Windows.Controls.TextChangedEventHandler(this.inputTestBox_TextChanged);
             
             #line default
@@ -138,7 +138,7 @@ namespace BookExercise1 {
             case 2:
             this.calculateButton = ((System.Windows.Controls.Button)(target));
             
-            #line 11 "..\..\MainWindow.xaml"
+            #line 15 "..\..\MainWindow.xaml"
             this.calculateButton.Click += new System.Windows.RoutedEventHandler(this.calculateButton_Click);
             
             #line default
@@ -153,7 +153,7 @@ namespace BookExercise1 {
             case 5:
             this.textBox = ((System.Windows.Controls.TextBox)(target));
             
-            #line 14 "..\..\MainWindow.xaml"
+            #line 18 "..\..\MainWindow.xaml"
             this.textBox.TextChanged += new System.Windows.Controls.TextChangedEventHandler(this.textBox_TextChanged);
             
             #line default
@@ -165,7 +165,7 @@ namespace BookExercise1 {
             case 7:
             this.button = ((System.Windows.Controls.Button)(target));
             
-            #line 16 "..\..\MainWindow.xaml"
+            #line 20 "..\..\MainWindow.xaml"
             this.button.Click += new System.Windows.RoutedEventHandler(this.button_Click);
             
             #line default
