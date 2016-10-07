@@ -23,3 +23,8 @@ C:\Users\prettsar\Source\Repos\Fh_CodingDojos\Real_World_Problem_Dojo\obj\Debug\
 H:\FH\Lehveranstaltungen\3 Semester\Software Application Development\SVNDojos\Real_World_Problem_Dojo\bin\Debug\Real_World_Problem_Dojo.exe.config
 H:\FH\Lehveranstaltungen\3 Semester\Software Application Development\SVNDojos\Real_World_Problem_Dojo\obj\Debug\Real_World_Problem_Dojo.exe
 H:\FH\Lehveranstaltungen\3 Semester\Software Application Development\SVNDojos\Real_World_Problem_Dojo\obj\Debug\Real_World_Problem_Dojo.pdb
+H:\FH\Lehveranstaltungen\3 Semester\Software Application Development\SVNDojos\Real_World_Problem_Dojo\obj\Debug\Real_World_Problem_Dojo.csprojResolveAssemblyReference.cache
+H:\FH\Lehveranstaltungen\3 Semester\Software Application Development\SVNDojos\Real_World_Problem_Dojo\obj\Debug\MainWindow.g.cs
+H:\FH\Lehveranstaltungen\3 Semester\Software Application Development\SVNDojos\Real_World_Problem_Dojo\obj\Debug\App.g.cs
+H:\FH\Lehveranstaltungen\3 Semester\Software Application Development\SVNDojos\Real_World_Problem_Dojo\obj\Debug\Real_World_Problem_Dojo_MarkupCompile.cache
+H:\FH\Lehveranstaltungen\3 Semester\Software Application Development\SVNDojos\Real_World_Problem_Dojo\obj\Debug\Real_World_Problem_Dojo_MarkupCompile.lref

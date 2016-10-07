@@ -20,9 +20,46 @@ namespace BookExercise1
     /// </summary>
     public partial class MainWindow : Window
     {
+        double numberDouble;
+        double sq;
+
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void calculateButton_Click(object sender, RoutedEventArgs e)
+        {
+            frameworkLabel.Content = toString(calculateSQ(numberDouble));
+        }
+
+        private void inputTestBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            // convert Textbox input into a double
+
+            if (!Double.TryParse(inputTestBox.Text, out numberDouble))
+            {
+                MessageBox.Show("Please enter a number");
+                return;
+            }
+           
+
+                Double.TryParse(inputTestBox.Text, out numberDouble);
+                if (numberDouble < 0) MessageBox.Show("Please enter a positiv number");
+                else return;
+
+                
+
+            
+        }
+        private String toString(double d)
+        {
+            return d.ToString("00.000 (Using .NET Framework)");
+        }
+
+        private double calculateSQ(double d)
+        {
+           return sq = Math.Sqrt(numberDouble);
         }
     }
 }

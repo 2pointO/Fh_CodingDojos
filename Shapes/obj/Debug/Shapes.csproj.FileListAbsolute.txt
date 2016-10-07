@@ -8,3 +8,8 @@ C:\Users\prettsar\Source\Repos\Fh_CodingDojos\Shapes\bin\Debug\Shapes.pdb
 C:\Users\prettsar\Source\Repos\Fh_CodingDojos\Shapes\obj\Debug\Shapes.csprojResolveAssemblyReference.cache
 C:\Users\prettsar\Source\Repos\Fh_CodingDojos\Shapes\obj\Debug\Shapes.dll
 C:\Users\prettsar\Source\Repos\Fh_CodingDojos\Shapes\obj\Debug\Shapes.pdb
+H:\FH\Lehveranstaltungen\3 Semester\Software Application Development\SVNDojos\Shapes\bin\Debug\Shapes.dll
+H:\FH\Lehveranstaltungen\3 Semester\Software Application Development\SVNDojos\Shapes\bin\Debug\Shapes.pdb
+H:\FH\Lehveranstaltungen\3 Semester\Software Application Development\SVNDojos\Shapes\obj\Debug\Shapes.csprojResolveAssemblyReference.cache
+H:\FH\Lehveranstaltungen\3 Semester\Software Application Development\SVNDojos\Shapes\obj\Debug\Shapes.dll
+H:\FH\Lehveranstaltungen\3 Semester\Software Application Development\SVNDojos\Shapes\obj\Debug\Shapes.pdb
