@@ -20,7 +20,7 @@ namespace BookExercise1
     /// </summary>
     public partial class MainWindow : Window
     {
-        double numberDouble;
+       double numberDouble;
 
 
 
@@ -62,6 +62,43 @@ namespace BookExercise1
             }
 
             newtonLabel.Content = string.Format("{0} (Using Newton)", result);
+        }
+
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            int intNumber;
+
+            if(!int.TryParse(textBox.Text, out intNumber))
+            {
+                MessageBox.Show("Enter an integer");
+                return;
+            }
+
+            if (intNumber < 0) MessageBox.Show("Please enter a positive number");
+            
+            int remainder = 0;
+            StringBuilder binary = new StringBuilder();
+
+            do
+            {
+                remainder = intNumber % 2;
+                intNumber = intNumber / 2;
+                binary.Insert(0,remainder);
+
+            } while (intNumber > 0);
+
+            label.Content = binary.ToString();
+        }
+
+        private void inputTestBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void textBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }

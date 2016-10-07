@@ -44,7 +44,7 @@ namespace Real_World_Problem_Dojo
             switch (rndNumber)
             {
                 case 0:
-                    shape = new Circle() { CurrentPosition = new Point(rnd.Next(0, 5), (rnd.Next(0, 5)), Diameter =75 };
+                    shape = new Circle() { CurrentPosition = new Point(rnd.Next(0, 5), (rnd.Next(0, 5)), Diameter = 75) };
                     break;
                 default:
                     break;
