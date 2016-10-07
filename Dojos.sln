@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shapes", "Shapes\Shapes.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingDojo3", "CodingDojo3\CodingDojo3.csproj", "{E10CBC90-0C02-45F0-9945-45E4813A1A9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookExercise1", "BookExercise1\BookExercise1.csproj", "{0CEAEADA-7B5A-4A5C-B4DB-D30C9C788E9C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookExercise1+2", "BookExercise1\BookExercise1+2.csproj", "{0CEAEADA-7B5A-4A5C-B4DB-D30C9C788E9C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
