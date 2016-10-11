@@ -55,6 +55,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Resources\Group.cs" />
+    <Compile Include="Resources\RelayCommands.cs" />
+    <Compile Include="Resources\SampleManager.cs" />
+    <Compile Include="Resources\Software.cs" />
+    <Compile Include="Resources\Stock.cs" />
+    <Compile Include="Resources\StockEntry.cs" />
+    <Compile Include="ViewModel\MainViewModel.cs" />
+    <Compile Include="ViewModel\StockVM.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

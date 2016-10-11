@@ -23,9 +23,14 @@ namespace CodingDojo3
         public MainWindow()
         {
             InitializeComponent();
+            dataGrid.AutoGenerateColumns = false;
         }
 
         private void button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void button2_Click(object sender, RoutedEventArgs e)
         {
 
         }
