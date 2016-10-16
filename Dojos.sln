@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookExercise3", "BookExerci
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoList", "ToDoList\ToDoList.csproj", "{E514912F-9DBF-4410-9129-C57DD4C04609}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dojo3Help", "..\CodingDojo3\Dojo3Help\Dojo3Help\Dojo3Help.csproj", "{A405CF81-265C-4AF7-BF04-8BFEBEF37D68}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{E514912F-9DBF-4410-9129-C57DD4C04609}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E514912F-9DBF-4410-9129-C57DD4C04609}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E514912F-9DBF-4410-9129-C57DD4C04609}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A405CF81-265C-4AF7-BF04-8BFEBEF37D68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A405CF81-265C-4AF7-BF04-8BFEBEF37D68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A405CF81-265C-4AF7-BF04-8BFEBEF37D68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A405CF81-265C-4AF7-BF04-8BFEBEF37D68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
